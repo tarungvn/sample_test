@@ -1,4 +1,4 @@
-#How to run
+# How to run
 1. Run the code by using maven command clean compile install package
 2. In target folder jar will be created
 3. Provide  configuration parameters in json file
