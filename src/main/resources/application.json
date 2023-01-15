@@ -1,0 +1,8 @@
+{
+  "test": {
+  "incident_url": "https://bikeindex.org/api/v3/",
+  "endpoint": "search",
+  "writePath": "/apps/test/apidata"
+}
+
+}
