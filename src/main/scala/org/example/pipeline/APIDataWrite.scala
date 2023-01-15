@@ -6,7 +6,7 @@ object APIDataWrite {
 
   def writeData(df:DataFrame,writePath:String): Unit=
     {
-      df.write.mode("overwrite").parquet(writePath)
+      df.repartition(2).write.mode("overwrite").parquet(writePath)
     }
 
 }
